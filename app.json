@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Hello",
+    "description": "",
+    "slug": "Hello",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "androidStatusBarColor": "#ff7aef",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ff7aef",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true
+      }
+    }
+  }
+}
